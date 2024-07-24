@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container"></div>
+   <header>
+    <img src="./calculatorAtivo 4.png" alt="logo">
+</header>
+<form id="form-atividade">
+    <input type="text" id="nome-atividade" required placeholder="Subjact"/>
+    <input type="number" id="nota-atividade" required placeholder="Grade" min="0" max="10"/>
+    <button type="submit">Add +</button>
+</form>
+<table cellspacing="0">
+    <thead>
+    <tr>
+        <th>Subjact</th>
+        <th>Grade</th>
+        <th>Approved?</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Status</td>
+            <td>8</td>
+            <td><span class="resultado aprovado">Approved</span></td>
+        </tr>
+    </tfoot>
+</table>
+<script src="./main.js"></script>
+</body>
+</html>
